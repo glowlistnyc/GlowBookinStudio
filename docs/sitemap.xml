@@ -13,20 +13,4 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://glowbookingstudio.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://glowbookingstudio.com/en/"/>
   </url>
-  <url>
-    <loc>https://glowbookingstudio.com/ja/blog/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://glowbookingstudio.com/ja/blog/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://glowbookingstudio.com/en/blog/"/>
-  </url>
-  <url>
-    <loc>https://glowbookingstudio.com/en/blog/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://glowbookingstudio.com/ja/blog/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://glowbookingstudio.com/en/blog/"/>
-  </url>
-  <url>
-    <loc>https://glowbookingstudio.com/ja/blog/kaeru-ka-mayottara/</loc>
-  </url>
-  <url>
-    <loc>https://glowbookingstudio.com/en/blog/when-youre-unsure-about-changing-jobs/</loc>
-  </url>
 </urlset>

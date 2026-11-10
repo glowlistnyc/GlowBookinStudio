@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="">
+  <!-- a single path that gently forks in two -->
+  <path d="M200 286 C200 240 199 216 199 194" fill="none" stroke="#3B2F2A" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M199 194 C196 152 150 134 116 100" fill="none" stroke="#C67B5C" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M199 194 C202 152 252 134 288 100" fill="none" stroke="#8A9A7B" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="199" cy="194" r="5" fill="#3B2F2A"/>
+  <circle cx="112" cy="94" r="13" fill="#F3D9C9" stroke="#C67B5C" stroke-width="2.4"/>
+  <circle cx="292" cy="94" r="13" fill="#E3E9DC" stroke="#8A9A7B" stroke-width="2.4"/>
+</svg>

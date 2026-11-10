@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="">
+  <!-- sun -->
+  <circle cx="244" cy="120" r="40" fill="#F3D9C9"/>
+  <circle cx="244" cy="120" r="40" fill="none" stroke="#C67B5C" stroke-width="2.4"/>
+  <g stroke="#C67B5C" stroke-width="2" stroke-linecap="round" opacity=".9">
+    <line x1="244" y1="60" x2="244" y2="48"/>
+    <line x1="298" y1="80" x2="307" y2="71"/>
+    <line x1="190" y1="80" x2="181" y2="71"/>
+    <line x1="312" y1="120" x2="324" y2="120"/>
+  </g>
+  <!-- hills -->
+  <path d="M0 206 Q110 162 214 202 T400 196 L400 300 L0 300 Z" fill="#E3E9DC"/>
+  <path d="M0 238 Q150 202 268 236 T400 232 L400 300 L0 300 Z" fill="#CBD6C0"/>
+  <path d="M0 206 Q110 162 214 202 T400 196" fill="none" stroke="#8A9A7B" stroke-width="2" opacity=".55" stroke-linecap="round"/>
+  <!-- a small path, like stepping forward toward the horizon -->
+  <path d="M188 298 C190 262 150 250 172 224 C192 200 234 200 228 178" fill="none" stroke="#C67B5C" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="2 12"/>
+  <!-- a small bird -->
+  <path d="M96 92 q10 -9 20 0 q10 -9 20 0" fill="none" stroke="#3B2F2A" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+</svg>
