@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Glow Booking Studio</title>
+<link rel="canonical" href="https://glowbookingstudio.com/ja/" />
+<meta http-equiv="refresh" content="0; url=/ja/" />
+<script>
+  // Prefer the visitor's language: English speakers go to /en/, everyone else /ja/.
+  (function () {
+    try {
+      var lang = (navigator.language || navigator.userLanguage || "ja").toLowerCase();
+      location.replace(lang.indexOf("ja") === 0 ? "/ja/" : "/en/");
+    } catch (e) {
+      location.replace("/ja/");
+    }
+  })();
+</script>
+</head>
+<body>
+  <p style="font-family:system-ui,sans-serif;padding:24px;">
+    Redirecting… If nothing happens, choose
+    <a href="/ja/">日本語</a> or <a href="/en/">English</a>.
+  </p>
+</body>
+</html>
