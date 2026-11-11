@@ -35,8 +35,10 @@ Kept OUTSIDE this folder, not deployed:
 ## Illustrations
 `assets/illust/` contains three simple, warm, original line illustrations (hero sunrise/path, a gentle fork for "who this is for," two cups for the session). They're free to use and already placed on the page. Keep them, or swap in your own / Linustock art (https://www.linustock.com/vectors) by saving over the same filenames. The hero art is hidden on mobile by design; change `.hero-illust { display:none }` in the stylesheet if you want it shown on phones.
 
-## Not shown until you provide the real content
-- **Privacy Policy / Service Terms** links are commented out in the footer of both pages (no broken placeholder links go live). When you have real URLs, uncomment those lines and insert the URLs.
+## Legal pages (NEW — review before public marketing)
+- Privacy Policy and Service Terms now exist at `/ja/privacy/`, `/ja/terms/`, `/en/privacy/`, `/en/terms/`, and are linked from both footers. They are plain-language templates that reflect this site's actual practices (no on-site tracking; booking via Calendly; email via Google; non-clinical, not HIPAA).
+- Before relying on them publicly: (1) have a qualified attorney review them; (2) fill in the cancellation / refund specifics marked with `[ ]` in the Terms; (3) confirm the "last updated" date. Each file has a top-of-file HTML comment repeating this.
+- Legal pages are set to `noindex` and are intentionally left out of `sitemap.xml`.
 - The About name/credential text is live (you confirmed it). To change wording, edit `ja/index.html` and `en/index.html` directly.
 
 ## Credentials note (important)

@@ -24,16 +24,25 @@
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
-  <div class="wrap">
+  <div class="wrap nav-bar">
     <a class="brand" href="/en/">Glow Booking Studio</a>
-    <div class="nav-right">
+    <div class="nav-collapse" id="primary-nav">
+      <nav class="site-nav" aria-label="Page navigation">
+        <a href="#sessions">Sessions</a>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
       <nav class="lang-switch" aria-label="Language">
         <a href="/ja/" hreflang="ja" lang="ja">日本語</a>
         <span class="sep" aria-hidden="true">/</span>
         <span aria-current="true">EN</span>
       </nav>
-      <a class="btn btn-primary nav-cta" href="https://calendly.com/glowbookingstudio/10">Book a Free 10-Min Intro Call</a>
     </div>
+    <a class="btn btn-primary nav-cta" href="https://calendly.com/glowbookingstudio/10"><span class="full">Book a Free 10-Min Intro Call</span><span class="short">Book a call</span></a>
+    <button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+    </button>
   </div>
 </header>
 
@@ -47,7 +56,7 @@
       <h1>Find clarity in your next career chapter.</h1>
       <div class="lead">
         <p>Thinking about a career change, rethinking your path, or wondering what comes next?</p>
-        <p>A thoughtful, one-on-one space to explore your options, make sense of the uncertainty about what's next, and find a clearer sense of direction.</p>
+        <p>You don't have to sort it out alone. In 45 minutes, let's untangle the uncertainty together and find your way forward.</p>
       </div>
       <div class="actions">
         <a class="btn btn-primary" href="https://calendly.com/glowbookingstudio/10">Book a Free 10-Min Intro Call</a>
@@ -94,7 +103,7 @@
 </section>
 
 <!-- SESSION -->
-<section>
+<section id="sessions">
   <div class="wrap narrow">
     <div class="section-head">
       <p class="eyebrow">The 45-minute session</p>
@@ -136,14 +145,14 @@
       <p class="eyebrow">For first-timers</p>
       <h2>You don't need to have it figured out.</h2>
     </div>
-    <p>"I don't know what to talk about" is a perfectly fine place to start. Many people arrive with a vague unease they haven't yet put into words.</p>
+    <p>"I don't know what to talk about" is a perfectly fine place to start. A vague unease you haven't yet put into words is welcome here, just as it is.</p>
     <p style="margin-top:16px;">In the session, my questions help you slowly untangle your thoughts. You don't need to be articulate, or to have it all organized.</p>
     <p style="margin-top:16px;">If it's your first time, come just as you are. We'll go at your pace.</p>
   </div>
 </section>
 
 <!-- ABOUT -->
-<section>
+<section id="about">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">About the coach</p>
@@ -159,7 +168,8 @@
           <span class="about-cred">LMSW · New York</span>
           <span class="about-cred">LSW · New Jersey</span>
         </p>
-        <p>Drawing on years of work supporting people through change, I now coach women standing at a career crossroads. I meet your situation without judgment and help you put what's in your head into words, one piece at a time. The answer is always yours to choose.</p>
+        <p>I've lived and worked in the U.S., Denmark, and Japan. As a licensed social worker supporting people through life's transitions, I've seen how much it helps to have a safe place to talk a career through.</p>
+        <p>I won't hand you a "should." We'll look at what matters to you and find your way forward together — in Japanese or English, at your pace, as an equal beside you.</p>
         <p class="disclaimer">This is a non-clinical coaching service, not psychotherapy or mental health treatment. It does not provide diagnosis or treatment.</p>
       </div>
     </div>
@@ -171,7 +181,7 @@
   <div class="wrap narrow">
     <div class="compare">
       <p class="eyebrow">Coaching, counseling, and therapy</p>
-      <p>This service is non-clinical coaching focused on work-related decisions and the actions ahead. We sort through your situation, put your options into words, and find a manageable next step.</p>
+      <p>This service is non-clinical coaching focused on work-related decisions and the direction ahead. We sort through your situation, put your options into words, and find a clearer way forward.</p>
       <p>Counseling and therapy are support from licensed professionals who work with mental health, symptoms, and emotional healing. Coaching is not a substitute, and it does not involve diagnosis, treatment, crisis intervention, or immigration or legal advice.</p>
       <p>If low mood or anxiety is affecting your daily life, please reach out to a medical or mental health professional. When it helps, coaching can run alongside that support.</p>
     </div>
@@ -179,7 +189,7 @@
 </section>
 
 <!-- PRICING -->
-<section class="pricing">
+<section class="pricing" id="pricing">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Pricing</p>
@@ -205,7 +215,7 @@
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">How it works</p>
-      <h2>From booking to your next step.</h2>
+      <h2>From booking to a clearer direction.</h2>
     </div>
     <div class="steps">
       <div class="step">
@@ -233,7 +243,7 @@
 </section>
 
 <!-- FAQ -->
-<section>
+<section id="faq">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Frequently asked</p>
@@ -246,15 +256,11 @@
       </details>
       <details>
         <summary>How many sessions do I need?</summary>
-        <p>It's designed as a single, self-contained 45-minute session. Many people find one is enough to feel more clear. If you'd like to continue, you're welcome to book again whenever you want — there's no set number and no obligation to continue.</p>
-      </details>
-      <details>
-        <summary>Is it okay if it's my first time, or I don't know what to say?</summary>
-        <p>Yes. "I don't know what to talk about" is a fine place to start. My questions will help us untangle it together, so there's no need to prepare or have it figured out.</p>
+        <p>It's designed as a single, self-contained 45-minute session. If you'd like to continue, you're welcome to book again whenever you want — there's no set number and no obligation to continue.</p>
       </details>
       <details>
         <summary>Do you review resumes or provide job placement?</summary>
-        <p>No. This service focuses on clarifying career decisions and finding your next step. It does not include resume reviews, job referrals, recruiting, or placement.</p>
+        <p>No. This service focuses on clarifying career decisions and finding a clearer direction. It does not include resume reviews, job referrals, recruiting, or placement.</p>
       </details>
       <details>
         <summary>Can I book in Japanese or English?</summary>
@@ -293,10 +299,8 @@
       </div>
       <nav class="footer-links" aria-label="Footer">
         <a href="mailto:glowbookingstudio@gmail.com">glowbookingstudio@gmail.com</a>
-        <!-- Enable once finalized:
-        <a href="[PRIVACY_POLICY_URL]">Privacy Policy</a>
-        <a href="[TERMS_URL]">Service Terms</a>
-        -->
+        <a href="/en/privacy/">Privacy Policy</a>
+        <a href="/en/terms/">Service Terms</a>
       </nav>
     </div>
     <p class="footer-disclaimer">This is a non-clinical coaching service. It does not provide psychotherapy, counseling, diagnosis, treatment, crisis intervention, or legal advice.</p>
@@ -310,6 +314,19 @@
   </div>
 </footer>
 
-<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+(function(){
+  var h=document.querySelector('.site-header'), t=document.querySelector('.nav-toggle');
+  if(!h||!t) return;
+  t.addEventListener('click',function(){
+    var open=h.classList.toggle('open');
+    t.setAttribute('aria-expanded',open?'true':'false');
+  });
+  document.querySelectorAll('#primary-nav a').forEach(function(a){
+    a.addEventListener('click',function(){ h.classList.remove('open'); t.setAttribute('aria-expanded','false'); });
+  });
+})();
+</script>
 </body>
 </html>
