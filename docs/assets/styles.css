@@ -123,8 +123,8 @@ section{padding-block:clamp(58px,9vw,106px);}
 .rule{height:1px;background:var(--line);border:0;}
 
 /* illustrations (external Linustock art dropped in later) */
-.section-illust{max-width:300px;margin:0 auto clamp(28px,5vw,44px);opacity:.96;}
-.section-illust img{width:100%;height:auto;}
+.section-illust{max-width:230px;margin:0 auto clamp(26px,5vw,40px);}
+.section-illust img{width:100%;height:auto;display:block;}
 
 /* hero */
 .hero{padding-block:clamp(64px,11vw,128px);}
@@ -144,11 +144,12 @@ html[lang="ja"] .site-footer{
   overflow-wrap:anywhere; /* safety valve so an over-long run can't overflow */
 }
 .hero .actions{margin-top:36px;}
-.hero-illust{max-width:400px;justify-self:end;}
-.hero-illust img{width:100%;height:auto;}
+.hero-illust{max-width:250px;justify-self:end;}
+.hero-illust img{width:100%;height:auto;max-height:440px;object-fit:contain;display:block;margin-inline:auto;}
 @media(max-width:780px){
-  .hero-grid{grid-template-columns:1fr;gap:36px;}
-  .hero-illust{display:none;} /* keep hero focused on mobile; swap to block if you want it */
+  .hero-grid{grid-template-columns:1fr;gap:30px;}
+  .hero-illust{max-width:150px;justify-self:center;order:-1;margin-bottom:4px;}
+  .hero-illust img{max-height:230px;}
 }
 
 /* who this is for */
@@ -241,6 +242,7 @@ html[lang="ja"] .site-footer{
 .footer-lang [aria-current="true"]{text-decoration:underline;text-decoration-color:var(--terracotta);}
 
 /* legal pages (privacy / terms) */
+.review-banner{background:#F7E6D6;border:1px solid var(--terracotta);color:#7a4a2e;border-radius:var(--r);padding:14px 18px;font-size:.9rem;line-height:1.7;margin-bottom:28px;}
 .legal{padding-block:clamp(40px,7vw,72px);}
 .legal h1{margin-bottom:10px;}
 .legal h2{font-size:1.18rem;margin:34px 0 10px;}
