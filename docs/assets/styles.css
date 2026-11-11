@@ -115,8 +115,8 @@ section[id]{scroll-margin-top:86px;}
 }
 
 /* section rhythm */
-section{padding-block:clamp(58px,9vw,106px);}
-.section-head{max-width:700px;margin-bottom:clamp(30px,5vw,50px);}
+section{padding-block:clamp(44px,6.5vw,82px);}
+.section-head{max-width:700px;margin-bottom:clamp(26px,4vw,40px);}
 .section-head .eyebrow{margin-bottom:18px;}
 .section-head p{color:var(--brown-soft);font-size:1.05rem;margin-top:16px;}
 .alt{background:var(--cream-2);}
@@ -127,7 +127,7 @@ section{padding-block:clamp(58px,9vw,106px);}
 .section-illust img{width:100%;height:auto;display:block;}
 
 /* hero */
-.hero{padding-block:clamp(64px,11vw,128px);}
+.hero{padding-block:clamp(52px,8vw,100px);}
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(32px,6vw,64px);align-items:center;}
 .hero .eyebrow{margin-bottom:26px;}
 .hero h1{max-width:16ch;}
@@ -135,15 +135,9 @@ section{padding-block:clamp(58px,9vw,106px);}
 .hero .lead p{margin:0;max-width:none;}
 .hero .lead p + p{margin-top:.7em;}
 
-/* Japanese: break only at phrase boundaries marked with U+200B (inserted via BudouX).
-   keep-all suppresses casual mid-word breaks across all browsers. */
-html[lang="ja"] main,
-html[lang="ja"] .site-footer{
-  line-break:strict;
-  word-break:keep-all;
-  overflow-wrap:anywhere; /* safety valve so an over-long run can't overflow */
-}
-.hero .actions{margin-top:36px;}
+/* Japanese: natural line wrapping (kinsoku handled by the browser). */
+html[lang="ja"]{ line-break:normal; word-break:normal; overflow-wrap:normal; }
+.hero .actions{margin-top:34px;}
 .hero-illust{max-width:250px;justify-self:end;}
 .hero-illust img{width:100%;height:auto;max-height:440px;object-fit:contain;display:block;margin-inline:auto;}
 @media(max-width:780px){
